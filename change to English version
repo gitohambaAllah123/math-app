@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math App for Grade 1–3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📚 Welcome to the Math Learning App</h1>
+  <p>Select your grade level to start learning:</p>
+
+  <div class="button-container">
+    <a href="kelas1.html" class="btn">🧮 Grade 1</a>
+    <a href="kelas2.html" class="btn">📏 Grade 2</a>
+    <a href="kelas3.html" class="btn">📐 Grade 3</a>
+  </div>
+
+  <footer style="margin-top: 40px; font-size: 0.9em; color: gray;">
+    <p>© 2025 Math Learning Web App | Built with passion 🌟</p>
+  </footer>
+</body>
+</html>
