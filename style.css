@@ -1,18 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: #fdfdfd;
+  padding: 40px;
   text-align: center;
-  padding: 50px;
 }
 
-.container {
-  max-width: 600px;
-  margin: auto;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+h1 {
+  color: #3e8ed0;
 }
 
 ul {
@@ -22,10 +16,4 @@ ul {
 
 li {
   margin: 10px 0;
-}
-
-a {
-  text-decoration: none;
-  color: #007BFF;
-  font-weight: bold;
 }
