@@ -1,20 +1,56 @@
-.class-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  margin: 20px 0;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f8ff;
+  margin: 0;
+  padding: 20px;
+  color: #333;
 }
 
-.kelas-link {
-  background-color: #007bff;
-  color: white;
-  padding: 12px 20px;
+h1 {
+  color: #2a68b0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #ffffff;
+  border: 1px solid #d0e3f0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: #e0f0ff;
+}
+
+a {
   text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+  color: #2a68b0;
+  font-weight: bold;
 }
 
-.kelas-link:hover {
-  background-color: #0056b3;
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+nav a {
+  margin: 0 10px;
+  background-color: #2a68b0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #145388;
 }
